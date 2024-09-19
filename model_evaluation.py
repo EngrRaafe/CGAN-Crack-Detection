@@ -71,7 +71,7 @@ test_dataset = test_dataset.map(load_image_test)
 test_dataset = test_dataset.batch(BATCH_SIZE)
 
 # load the model
-generator_pt = tf.keras.models.load_model('D:/CPEC Project Files/CPEC Source Files/models/Tensorflow_models_9899/model_800000.h5')
+generator_pt = tf.keras.models.load_model('Add path to the model file')
 
 def block_ext(img):
     block_size = 32
